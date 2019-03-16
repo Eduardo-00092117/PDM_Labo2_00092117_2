@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9;
 
     private void cambiar(Button btn){
-        int numero = (int) (Math.random() * 12) + 1;
+        int numero = (int) (Math.random() * 11);
         btn.setBackgroundResource(imagen[numero]);
     }
 
@@ -50,22 +50,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 cambiar(btn1);
                 break;
             case R.id.btn2:
-                cambiar(btn1);
+                cambiar(btn2);
                 break;
             case R.id.btn3:
-                cambiar(btn1);
+                cambiar(btn3);
                 break;
             case R.id.btn4:
+                cambiar(btn4);
                 break;
             case R.id.btn5:
+                cambiar(btn5);
                 break;
             case R.id.btn6:
+                cambiar(btn6);
                 break;
             case R.id.btn7:
+                cambiar(btn7);
                 break;
             case R.id.btn8:
+                cambiar(btn8);
                 break;
             case R.id.btn9:
+                cambiar(btn9);
                 break;
 
         }
